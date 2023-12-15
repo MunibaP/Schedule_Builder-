@@ -1,7 +1,7 @@
 # Schedule_Builder
 
 ## Description
-In this week challenge #5, as a transitional web developer I was tasked with crafting a user-friendly calendar app, allowing individuals to effortlessly log their day-to-day activities from 9 am to 5 pm. The significance lies in its potential to streamline and improve daily task management. The web-based application was built using HTML, CSS, jQuery, and JavaScript, making it both professional and easy to use. Likewise, the incorporation of the Day.js library enhances the app's functionality, particularly in managing dates and times with efficiency. In essence, creating this calendar deliver solutions that prioritize user needs, offering a straightforward approach to enhancing productivity and organization. It's not just an web-based application; it's a practical tool designed to make the workday more structured and efficient for every user.
+In this week challenge #5, as a transitional web developer I was tasked with crafting a user-friendly calendar app, allowing individuals to effortlessly log their day-to-day activities from 9 am to 5 pm. The web-based application was built using HTML, CSS, jQuery, and JavaScript, making it both professional and easy to use. Likewise, the incorporation of the Day.js library enhances the app's functionality, particularly in managing dates and times with efficiency. In essence, creating this calendar deliver solutions that prioritize user needs, offering a straightforward approach to enhancing productivity and organization. It's not just an web-based application; it's a practical tool designed to make the workday more structured and efficient for every user.
 
 ## Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
