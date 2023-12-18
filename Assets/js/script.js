@@ -74,7 +74,8 @@ $(document).ready(function() {
 
   // Added save button to save the events when the button is clicked
   $(".saveBtn").on("click", function() {
-    var hour = $(this).siblings(".hour").text().trim().split("")[0];
+    const regex =  /^\d{1,2}/;
+    var hour = $(this).siblings(".hour").text().trim().match(regex)[0];
     var eventText = $(this).siblings(".description").val();
 
     saveEvent(hour, eventText);
