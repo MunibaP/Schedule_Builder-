@@ -59,12 +59,11 @@ $(document).ready(function() {
   function getSavedEvents() {
     var timeblocks = document.querySelectorAll(".time_block");
     timeblocks.forEach(timeblocks => {
-      var hour = timeblocks.getAttribute("id").split("_")[1];
+      var hour = timeblocks.getAttribute("id").split("_")[1];  // console.log(hour);
       var eventText = localStorage.getItem(`hour_${hour}_text`);
       if (eventText) {
         $(`#${timeblocks.id} .description`).val(JSON.parse(eventText));
       }
-
     });
   }
 
@@ -77,7 +76,6 @@ $(document).ready(function() {
     const regex =  /^\d{1,2}/;
     var hour = $(this).siblings(".hour").text().trim().match(regex)[0];
     var eventText = $(this).siblings(".description").val();
-
     saveEvent(hour, eventText);
 
     showNotification("Your Appointment is saved to LocalStorage!");
